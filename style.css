@@ -15,15 +15,21 @@ body{
     display: flex;
     justify-content: center;
 }
-header{
-    font-size: 35px;
-    color: rgb(76, 0, 255);
-    border-bottom: solid 3px wheat;
-    padding: 20px;
+categoria{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-h1{
-    font-size: 40px;
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
-.chamada-texto{
-    margin-right: 5%;
+.categoria-videos img{
+    opacity: 0,5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px paleturquoise;
 }
